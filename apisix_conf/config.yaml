@@ -1,0 +1,10 @@
+apisix:
+  allow_admin:
+    - 0.0.0.0/0
+  admin_key:
+    - name: "admin"
+      key: edd1c9f034335f136f87ad84b625c8f1
+      role: admin
+etcd:
+  host:
+    - "http://etcd:2397"
